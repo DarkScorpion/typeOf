@@ -6,8 +6,8 @@ var _exampleVars = [
   true, 5, 'aaa', [], {}, null, function(){}, new Date(), /abc/, new Error('error'), undefined
 ];
 
-describe('Linear test variables', () => {
-  
+describe('Line variables test', () => {
+
   it('Boolean', () => {
     testOnAllTypes(0, 'boolean');
   });

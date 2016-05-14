@@ -1,6 +1,6 @@
 ## TypeOf
 
-[![Build Status](https://travis-ci.org/DarkScorpion/typeOf.svg?branch=m)](https://travis-ci.org/DarkScorpion/typeOf)
+[![Build Status](https://travis-ci.org/DarkScorpion/typeOf.svg?branch=hard-test)](https://travis-ci.org/DarkScorpion/typeOf)
 
 The module exports a single function that returns one of the 11 types of javascript.  
 Written more for personal use, so as not to depend on the ["npm leftpad problem"] [leftpad].
