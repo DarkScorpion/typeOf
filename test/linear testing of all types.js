@@ -7,7 +7,7 @@ var _exampleVars = [
 ];
 
 describe('Linear test variables', () => {
-
+  
   it('Boolean', () => {
     testOnAllTypes(0, 'boolean');
   });
