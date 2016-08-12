@@ -5,7 +5,7 @@ var typeOf = require('../typeOf.js');
 
 var _typeExampls = {
   boolean: [true, false],
-  number: [1, 5, 777],
+  number: [1, 5, NaN, 777],
   string: ['aaa', 'b=\nz', 'AAA/BBB/'],
   array: [ [], ['aaa', 'bbb'], [1, 2, 0], [1, '2', false] ],
   object: [ {}, {a:1}, {zzz:'za',xxx:false,ccc:[]} ],
