@@ -9,7 +9,7 @@ Written more for personal use, so as not to depend on the ["npm leftpad problem"
 ```js
 var typeOf = require('typeOf');
 
-typeOf(false) //=> 'boolen'
+typeOf(false) //=> 'boolean'
 typeOf(5) //=> 'number'
 typeOf('aaaa') //=> 'string'
 typeOf([1,2]) //=> 'array'
