@@ -8,48 +8,48 @@ var _exampleVars = [
 
 describe('Linear test variables', () => {
   
-  it('Boolean', () => {
-    testOnAllTypes(0, 'boolean');
+  it('Boolean | bool', () => {
+    testOnAllTypes(0, 'bool');
   });
 
-  it('Number', () => {
-    testOnAllTypes(1, 'number');
+  it('Number | num', () => {
+    testOnAllTypes(1, 'num');
   });
 
-  it('String', () => {
-    testOnAllTypes(2, 'string');
+  it('String | str', () => {
+    testOnAllTypes(2, 'str');
   });
 
-  it('Array', () => {
-    testOnAllTypes(3, 'array');
+  it('Array | arr', () => {
+    testOnAllTypes(3, 'arr');
   });
 
-  it('Object', () => {
-    testOnAllTypes(4, 'object');
+  it('Object | obj', () => {
+    testOnAllTypes(4, 'obj');
   });
 
-  it('Null', () => {
+  it('Null | null', () => {
     testOnAllTypes(5, null);
   });
 
-  it('Function', () => {
-    testOnAllTypes(6, 'function');
+  it('Function | func', () => {
+    testOnAllTypes(6, 'func');
   });
 
-  it('Date', () => {
+  it('Date | data', () => {
     testOnAllTypes(7, 'date');
   });
 
-  it('RegExp', () => {
-    testOnAllTypes(8, 'regexp');
+  it('RegExp | reg', () => {
+    testOnAllTypes(8, 'reg');
   });
 
-  it('Error', () => {
-    testOnAllTypes(9, 'error');
+  it('Error | err', () => {
+    testOnAllTypes(9, 'err');
   });
 
-  it('Undefined', () => {
-    testOnAllTypes(10, 'undefined');
+  it('Undefined | undef', () => {
+    testOnAllTypes(10, 'undef');
   });
 
 });

@@ -1,4 +1,4 @@
-## TypeOf
+## TypeOf (short version)
 
 [![Build Status](https://travis-ci.org/DarkScorpion/typeOf.svg?branch=m)](https://travis-ci.org/DarkScorpion/typeOf)
 
@@ -9,17 +9,17 @@ Written more for personal use, so as not to depend on the ["npm leftpad problem"
 ```js
 var typeOf = require('typeOf');
 
-typeOf(false) //=> 'boolean'
-typeOf(5) //=> 'number'
-typeOf('aaaa') //=> 'string'
-typeOf([1,2]) //=> 'array'
-typeOf({a1:'b1'}) //=> 'object'
+typeOf(false) //=> 'bool'
+typeOf(5) //=> 'num'
+typeOf('aaaa') //=> 'str'
+typeOf([1,2]) //=> 'arr'
+typeOf({a1:'b1'}) //=> 'obj'
 typeOf(null) //=> null
-typeOf(function(){}) //=> 'function'
+typeOf(function(){}) //=> 'func'
 typeOf(new Date) //=> 'date'
-typeOf(/aaa/i) //=> 'regexp'
-typeOf(new Error()) //=> 'error'
-typeOf(undefined) //=> 'undefined'
+typeOf(/aaa/i) //=> 'reg'
+typeOf(new Error()) //=> 'err'
+typeOf(undefined) //=> 'undef'
 ```
 
 [leftpad]: http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/
